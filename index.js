@@ -29,4 +29,4 @@ bot.on(`ready`,function(){
     bot.user.setActivity(`Canada Corrections`, {type: `WATCHING`})
 })
 
-bot.login(TOKEN);
+bot.login(process.env.token);
